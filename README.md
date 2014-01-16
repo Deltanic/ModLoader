@@ -6,9 +6,9 @@ Never having to edit meta.xml, never being too lazy to add new mods, no problems
 Installation
 ------------
 
-First of all, download modloader from *here*. Make sure to **unzip** the downloaded package into your resources directory of MTA, else ModLoader will **not** work. It's also adviced you rename the resource afterwards, for example to modloader-my_appendix. By doing this you will make sure that people dont have to redownload all the mods when they have visited another server running ModLoader under the same name.
+First of all, download modloader from *here*. Make sure to **unzip** the downloaded package into your resources directory of MTA, else ModLoader will **not** work. It's also adviced you rename the resource afterwards, for example to modloader-my_suffix. By doing this you will make sure that people dont have to redownload all the mods when they have visited another server running ModLoader under the same name.
 
-After you've done that, you **must** give ModLoader access to the restartResource function. The easiest way to do this is by adding `<object name="resource.modloader-my_appendix"></object>` under the admin group in _acl.xml_.
+After you've done that, you **must** give ModLoader access to the restartResource function. The easiest way to do this is by adding `<object name="resource.modloader-my_suffix"></object>` under the admin group in _acl.xml_.
 
 Installing mods
 ---------------
