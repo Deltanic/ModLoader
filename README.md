@@ -1,14 +1,14 @@
-MODLOADER 1.0.3 MANUAL
+Modloader 1.0.3 Manual
 =========================
 
 *Make sure this resource has access to the restartResource function. You can simply add it to the admingroup in the ACL.*
 
-How does it work? Well simple. Just get a mod from any website, for example gtainside.com.
+How does it work? Well simple. Just get a mod from any website... for example a site like gtainside.com.
 
-Make sure all the files you place are lowercase, and thus not UPPERCASE! If not, ModLoader won't catch your mods.
-Also, make sure the file-extenstion is lowercase.
+Make sure all the files you place are completely lowercase, and not UPPERCASE! If not, ModLoader won't detect your mods.
+Also, make sure the file-extention is lowercase.
 
-If ModLoader doesnt see your mod, it's your problem. ModLoader works correct so you simply have an incorrect modname.
+If ModLoader doesnt see your modification, it's probably an issue on your side. ModLoader has been designed to load based on the name of the modification.
 Please see or ask in the forum topic for solutions.
 
 To install a mod:
@@ -36,19 +36,20 @@ IMPORTANT NOTE
 
 
 
-= Skins and weapons =====
+Skins and weapons
+===================
 Simply place the DFF and TXD in the "skins" or "weapons" folder, depending what you want to mod.
 
 
 
 Also, I've included an option to delete mods since 1.0.1. It works simple with this command:
- mdel [moddir] [modname]
+ `mdel [moddir] [modname]`
 So, if you want to delete the vehiclemod infernus for example, the command is "mdel vehicles infernus". This deletes the TXD, DFF and the optional HND file.
 
 Besides, if you want to CLEAR the complete mod directory use the command:
- mclear [moddir]
+ `mclear [moddir]`
 So, if you want to clear all vehicle mods, use "mdel vehicles".
-And ofcourse, ingame you use a slash ( '/' ) in front of a command :P
+And ofcourse, ingame you use a slash `/` in front of a command :P
 
 
 Any problems or suggestions? Feel free to post these at the forum!
