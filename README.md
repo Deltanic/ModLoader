@@ -1,11 +1,9 @@
-=========================
- MODLOADER 1.0.3
- MANUAL
+MODLOADER 1.0.3 MANUAL
 =========================
 
 First of all, thanks for using this resource! I'm sure it will statisfy you.
 
-=> Make sure this resource has access to the restartResource function! You can simply add it to the admingroup in the ACL.
+=> Make sure this resource has access to the restartResource function. You can simply add it to the admingroup in the ACL.
 
 How does it work? Well simple. Just get a mod from any website, for example gtainside.com.
 
