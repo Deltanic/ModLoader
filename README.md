@@ -23,9 +23,6 @@ Vehicles usually come with a handling file, a TXD (texture) file and a DFF (mode
 1. Copy the texture and model files into the vehicles folder. ![screenshot](http://puu.sh/6nkEz.png)
 2. If your modification contains a handling configuration and you'd like to add it to your server, read the next section.
 
-If you want custom collisions to work, there's a little something you'll need to do. Custom collisions is what allows your bigger monster truck to correctly collide with the GTA world. You need to open `replacer_c.lua` in a text editor and change the `false` to `true` on the first line. Like so: ![screenshot](http://puu.sh/6nllQ.png)
-
-
 #### Handling configurations
 Installing handling configurations take a little bit of playing around, but it's easy once you get the hang of it. My lamborghini modification for my infernus came with a README file containing the handling line. I won't go into detail with how they work, but I'll just teach you how to import them into modloader.
 
