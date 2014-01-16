@@ -8,7 +8,7 @@ Installation
 
 First of all, download modloader from *here*. Make sure to **unzip** the downloaded package into your resources directory of MTA. Now you must change the folder of the resource from `modloader` to something like `modloader-mysuffix`. You can change `mysuffix` to whatever you want it to be, for example, `modloader-ABCD` for the ABCD server. We strongly recommend you to choose a unique name when doing this so that your users won't have to download all your modifications again when they join a server with the same resource name.
 
-After you've done that, you **must** give ModLoader access to the restartResource function. The easiest way to do this is by adding `<object name="resource.modloader-mysuffix"></object>` under the admin group in _acl.xml_. Just pop it underneath `<object name="resource.admin"></object>` and you'll be all set up.
+After you've done that, you **must** give ModLoader access to the restartResource function. The easiest way to do this is by adding `<object name="resource.modloader-mysuffix"></object>` under the admin group in _acl.xml_. Just pop it underneath `<object name="resource.admin">` and you'll be all set up.
 
 Installing mods
 ---------------
@@ -49,9 +49,8 @@ Example: `mclear vehicles`
 
 Technical information
 ---------------------
-Since version 1.0.3, ModLoader takes a little more time to load collisions. It can load 10 collisions consecutively with an interval of 300 milliseconds. This means that if you have all 212 vehicles replaced it will take abuot a minute to load them all. It's almost guaranteed you won't crash.
-You can load more vehicles consecutively at one time by changing `maxVehicles` in replacer_c.lua, but I do not recommend this. 
-The reason I made it like this is to replace vehicles in a more stable way. I've been experiencing crashes when there are too many vehicles replaced at a single time.
+
+Since the latest versions of MTA, vehicle collisisions are properly supported. This means ModLoader does not have to take care of making sure the collisions work anymore. If the following is not the case already, please disable the loading of collisions by opening `replacer_c.lua` with a text editor and changing `local allowCollissions = true` to `local allowCollissions = false`. The `maxVehicles` variable can be ignored from now on.
 
 Support
 -------
