@@ -26,8 +26,8 @@ Vehicles usually come with a handling file, a TXD (texture) file and a DFF (mode
 #### Handling configurations
 Installing handling configurations take a little bit of playing around, but it's easy once you get the hang of it. My lamborghini modification for my infernus came with a README file containing the handling line. I won't go into detail with how they work, but I'll just teach you how to import them into modloader.
 
-Your README file might contain something like this. ![screenshot](http://puu.sh/6nlN9.png)
-At the moment, MTA (and by extension, modloader), doesn't support the feature to import the other files mentioned here, but it doesn't mean that your modification wont work (albeit not as the author intended). But don't worry. Just copy the handling contents into your clipboard. ![screenshot](http://puu.sh/6nmL0.png)
+Your README file might contain something like this. ![screenshot](http://puu.sh/6nncT.png)
+At the moment, MTA (and by extension, modloader), doesn't support the feature to import the other files mentioned here, but it doesn't mean that your modification wont work (albeit not as the author intended). But don't worry. Just copy the handling contents into your clipboard. ![screenshot](http://puu.sh/6nnje.png)
 
 You need to copy this to the same vehicles folder. To do this you need to create a `.hnd` file with the same name as your vehicle. In Notepad, just copy it over, and save the file as `yourvehicle.hnd`. It is really important you set the file types as `all files` so that the extension is properly set.
 
