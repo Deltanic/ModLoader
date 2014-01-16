@@ -1,4 +1,4 @@
-MODLOADER MANUAL
+ModLoader Manual
 =========================
 
 Never having to edit meta.xml, never being too lazy to add new mods, no problems with custom handlings, and working vehicle collisions. That's exactly what this resource does for you. You can't get it any simplet than this. Isn't that great?
@@ -12,6 +12,10 @@ After you've done that, you **must** give ModLoader access to the restartResourc
 
 Installing mods
 ---------------
+
+Installing modifications has never been this easy. All you've got to do is find your favorite vehicle, weapon or skin mods on your preferred source, place them in the correct folders and you're all set. [GTAInside][3] and [GTAGarage][4] are popular sources for mods.
+
+After you've downloaded a mod, you take the TXD and DFF and place them in the desired folder. These files **must** have the name of the GTA harcoded name. **qais pls**
 
 #### Vehicles
 bla bla
@@ -32,3 +36,5 @@ For issues and support you can refer to the [forums][1] or [submit an issue][2] 
 
 [1]: http://forum.mtasa.com/viewtopic.php?f=108&t=36481
 [2]: https://github.com/Deltanic/modloader/issues
+[3]: http://www.gtainside.com/en/
+[4]: http://www.gtagarage.com/
