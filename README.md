@@ -1,9 +1,7 @@
 MODLOADER 1.0.3 MANUAL
 =========================
 
-First of all, thanks for using this resource! I'm sure it will statisfy you.
-
-=> Make sure this resource has access to the restartResource function. You can simply add it to the admingroup in the ACL.
+*Make sure this resource has access to the restartResource function. You can simply add it to the admingroup in the ACL.*
 
 How does it work? Well simple. Just get a mod from any website, for example gtainside.com.
 
@@ -15,7 +13,8 @@ Please see or ask in the forum topic for solutions.
 
 To install a mod:
 
-= Vehicles ==============
+Vehicles
+--------
 Place the DFF and TXD in the "vehicles" folder.
 Also, in the mod you downloaded you might have a readme.txt containing a custom handling line.
 
@@ -28,7 +27,8 @@ Also, in the mod you downloaded you might have a readme.txt containing a custom 
 By default, custom collisions are DISABLED.
 > To enable custom collisions for vehicles, open "replacer_c.lua" and change "allowCollisions" to true.
 
-  == IMPORTANT NOTE ==
+IMPORTANT NOTE
+--------------
   Since version 1.0.3, ModLoader takes a little more time to load collisions. It can load 10 collisions consecutive with an interval of 300 MS.
   This means, if you have all 212 vehicles replaced, it will take a minute to load them all but it's almost guaranteed you won't crash.
   You can load more vehicles consecutive by changing "maxVehicles" in replacer_c.lua, but I do not recommend this.
